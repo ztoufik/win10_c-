@@ -1,4 +1,3 @@
-cmake_minimum_required( VERSION 2.8 )
 
 ## Required software
 #find_package( <<<name>>> REQUIRED )

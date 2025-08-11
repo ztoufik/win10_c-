@@ -1,9 +1,10 @@
-cmake_minimum_required( VERSION 2.8 )
+cmake_minimum_required( VERSION 4.1.0 )
 
 ## Load CMAKE configuration from environment variables
 set( CMAKE_MODULE_PATH $ENV{CMAKE_MODULE_PATH} )
 set( CMAKE_PREFIX_PATH $ENV{CMAKE_PREFIX_PATH} )
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set( CMAKE_BUILD_TYPE "Debug")
                        
 ## Specify a project name
 project( generic_project_name )
